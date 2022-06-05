@@ -1,24 +1,5 @@
 {
-  "productList": [
-    {
-      "productName": "aaaa",
-      "category": "Vegetables",
-      "freshness": "Second Hand",
-      "price": 111,
-      "comment": "asdasd",
-      "date": "2022-06-15T03:00:00.000Z",
-      "id": 1
-    },
-    {
-      "productName": "aaa",
-      "category": "Vegetables",
-      "freshness": "Brand New",
-      "price": 111,
-      "comment": "aasd",
-      "date": "2001-12-18T02:00:00.000Z",
-      "id": 2
-    }
-  ],
+  "productList": [],
   "comments": [
     {
       "id": 1,
