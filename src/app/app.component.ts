@@ -1,4 +1,7 @@
+import { DialogComponent } from './dialog/dialog.component';
 import { Component } from '@angular/core';
+import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'crud-angular-json-server';
+
+  constructor(private dialog: MatDialog) { }
+
+  openDialog() {
+    this.dialog.open(DialogComponent, {
+      width: '30%'
+
+    });
+  }
 }
